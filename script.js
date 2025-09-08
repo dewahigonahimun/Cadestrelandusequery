@@ -1,4 +1,4 @@
-const csvUrl = "https://raw.githubusercontent.com/a1subhash/LanduseQuery/refs/heads/main/dewahi.csv";
+const csvUrl = "https://raw.githubusercontent.com/dewahigonahimun/Cadestrelandusequery/refs/heads/main/dewahi.csv";
 let csvData = [];
 
 // Fetch CSV data on page load
@@ -99,5 +99,6 @@ function displayResults(results) {
     table.appendChild(tbody);
     resultsDiv.appendChild(table);
 }
+
 
 
